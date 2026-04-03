@@ -1,0 +1,199 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>THE MATRIX CLUB • VIT Bhopal</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+
+    <!-- NAVBAR -->
+    <nav>
+        <div class="nav-container">
+            <div class="logo">THE MATRIX CLUB</div>
+            
+            <ul class="nav-links" id="nav-links">
+                <li><a href="#home">HOME</a></li>
+                <li><a href="#about">ABOUT US</a></li>
+                <li><a href="#team">TEAM</a></li>
+                <li><a href="#events">EVENTS</a></li>
+                <li><a href="#contact">CONTACT</a></li>
+            </ul>
+
+            <div class="hamburger" id="hamburger">☰</div>
+        </div>
+    </nav>
+
+    <!-- HERO -->
+    <section id="home">
+        <canvas id="matrix-canvas"></canvas>
+        
+        <div class="hero-content">
+            <h1 class="hero-title">THE MATRIX CLUB</h1>
+            <p class="hero-subtitle">
+                Where code meets creativity.<br>
+                Photography • Videography • Graphic Design • VFX • Animation
+            </p>
+            <div class="cta-buttons">
+                <button onclick="document.getElementById('about').scrollIntoView({ behavior: 'smooth' })" class="btn btn-primary">
+                    ENTER THE MATRIX
+                </button>
+                <button onclick="document.getElementById('events').scrollIntoView({ behavior: 'smooth' })" class="btn btn-secondary">
+                    OUR EVENTS
+                </button>
+            </div>
+        </div>
+    </section>
+
+    <!-- ABOUT US -->
+    <section id="about">
+        <div class="section-header">
+            <h2>ABOUT THE MATRIX CLUB</h2>
+        </div>
+
+        <div class="about-grid">
+            <div class="about-text">
+                <p>The Matrix Club, based at VIT Bhopal, has grown into one of the most dynamic multimedia communities on campus. We serve as a creative hub for students passionate about visual storytelling, digital art, and cutting-edge technology.</p>
+                <p>We organize workshops, competitions, and collaborative projects that help members develop professional-level skills in photography, videography, graphic design, VFX, and animation.</p>
+                <p>Our club brings together students from various departments including Computer Science, Artificial Intelligence, Design, and more — fostering interdisciplinary collaboration to create innovative multimedia experiences.</p>
+            </div>
+
+            <div>
+                <div class="core-values">
+                    <div class="value-card">
+                        <h3>MISSION</h3>
+                        <p>To create a vibrant community of multimedia enthusiasts who push the boundaries of digital creativity through hands-on learning experiences.</p>
+                    </div>
+                    
+                    <div class="value-card">
+                        <h3>VISION</h3>
+                        <p>To be the leading multimedia club that bridges traditional art and digital innovation, shaping future industry leaders in creative expression.</p>
+                    </div>
+                    
+                    <div class="value-card">
+                        <h3>VALUES</h3>
+                        <p>Innovation, collaboration, and continuous learning. We believe in an inclusive environment where every creative idea is valued.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- TEAM -->
+    <section id="team">
+        <div class="section-header">
+            <h2>OUR TEAM</h2>
+            <p>Talented students driving multimedia excellence at VIT Bhopal</p>
+        </div>
+
+        <div class="team-grid">
+            <div class="team-card">
+                <div class="avatar">👾</div>
+                <div class="team-info">
+                    <div class="role">President</div>
+                    <p>Leads the club and oversees all major projects and events.</p>
+                </div>
+            </div>
+
+            <div class="team-card">
+                <div class="avatar">📸</div>
+                <div class="team-info">
+                    <div class="role">Vice President</div>
+                    <p>Manages photography, graphic design, and creative direction.</p>
+                </div>
+            </div>
+
+            <div class="team-card">
+                <div class="avatar">🎬</div>
+                <div class="team-info">
+                    <div class="role">Technical Lead</div>
+                    <p>Handles emerging technologies, VFX, and animation workflows.</p>
+                </div>
+            </div>
+
+            <div class="team-card">
+                <div class="avatar">🎥</div>
+                <div class="team-info">
+                    <div class="role">Creative Director</div>
+                    <p>Directs videography projects and storytelling initiatives.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- EVENTS -->
+    <section id="events">
+        <div class="section-header">
+            <h2>OUR EVENTS</h2>
+        </div>
+
+        <div class="events-grid">
+            <div class="event-card">
+                <div class="event-date">APRIL 18 • 2026</div>
+                <h3>NEO PHOTOGRAPHY WORKSHOP</h3>
+                <p>Master cinematic lighting, drone photography, and professional post-processing.</p>
+                <button onclick="alert('Registration link will be shared on club channels')" class="register-btn">REGISTER</button>
+            </div>
+
+            <div class="event-card">
+                <div class="event-date">APRIL 26 • 2026</div>
+                <h3>VFX UNLEASHED MASTERCLASS</h3>
+                <p>Industry-standard VFX workflows using After Effects and Blender.</p>
+                <button onclick="alert('Registration link will be shared on club channels')" class="register-btn">REGISTER</button>
+            </div>
+
+            <div class="event-card">
+                <div class="event-date">MAY 10 • 2026</div>
+                <h3>MATRIX DESIGN HACKATHON</h3>
+                <p>48-hour creative sprint with exciting prizes for the best designs.</p>
+                <button onclick="alert('Registration link will be shared on club channels')" class="register-btn">REGISTER</button>
+            </div>
+        </div>
+    </section>
+
+    <!-- CONTACT -->
+    <section id="contact">
+        <div class="section-header">
+            <h2>CONTACT US</h2>
+        </div>
+
+        <div class="contact-container">
+            <div class="contact-info">
+                <h3>Let's build something extraordinary</h3>
+                <p>VIT Bhopal University<br>Sehore Road, Kotri Kalan<br>Bhopal, Madhya Pradesh</p>
+                
+                <div class="social-links">
+                    <p><strong>Instagram:</strong> @thematrixclub.vitb</p>
+                    <p><strong>Discord:</strong> discord.gg/matrixvitb</p>
+                    <p><strong>Email:</strong> matrix@vitbhopal.ac.in</p>
+                </div>
+            </div>
+
+            <form id="contact-form">
+                <div class="form-group">
+                    <label>YOUR NAME</label>
+                    <input type="text" id="name" required>
+                </div>
+                <div class="form-group">
+                    <label>EMAIL ADDRESS</label>
+                    <input type="email" id="email" required>
+                </div>
+                <div class="form-group">
+                    <label>MESSAGE</label>
+                    <textarea id="message" rows="6" required></textarea>
+                </div>
+                <button type="submit" class="btn btn-primary">SEND MESSAGE</button>
+            </form>
+        </div>
+    </section>
+
+    <!-- FOOTER -->
+    <footer>
+        <p>© 2026 THE MATRIX CLUB • VIT Bhopal</p>
+        <p>Innovation • Collaboration • Creativity</p>
+    </footer>
+
+    <script src="index.js"></script>
+</body>
+</html>
